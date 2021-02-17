@@ -1,37 +1,128 @@
-*{ margin: 0; padding:0}
+
+
 header{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to bottom ,rgb(255, 255, 255) 94%,#150c25 6%)
-}
+	width: 100%;
+	height: 100px;
+	padding-top:80px;
+    
+    text-align: center;
+    position: relative;
+    
+	
+	top: 0;
+    overflow: hidden;
+   
+    background-size: 22% 200px;
+    
+	}
+    
+	nav{
+		font-family: Century Gothic;
+		position: absolute;
+        font-size: 25px;
+		bottom:70px;
+        height: 50px;
+        padding-right: 20px;
+		line-height: 60px;
+		width: 100%;
+		background-color: rgba(0,0,0,.1);
+	}
+		
+        a{
+			color: #fff;
+			display: inline-block;
+			padding: 10px 50px;
+			line-height: 1;
+			text-decoration: none;
+        }
+    a.pp{
+		border-style: solid;  
+		border-color: rgb(247, 31, 121);
+		border-radius: 20px; 
+		; 
+	}    
+	main{
+		font-family: Century Gothic;
+		font-size: 40px;
+		
+		
+		margin-left:170px;
+		background-color: #000000;
+		color: #fff;
+	}
+	
+	body{background-color: #000000;
+	}
+	.container{
+		font-family: Century Gothic;
+		font-size: 20px;
+		width: 50%;
+		color: #fff;
+		background-color: #000000;
+		height: 300px;
+		
+	}
+	.img{
+	  float: right;
+	  margin-top: 70px ;
+	  margin-right: 170px;
+	  transition: width 4s, height 4s;
+	}
+	
+          .img:hover {
+	     width: 400px;
+	     height: 400px;
+          }
+	.images{
+		display: inline-block;
+		padding:  40px;   
+	  
+	}
+	.images:hover {
+		width: 70px;
+		height: 70px;
+		 }
+	.container2{
+	    
+		width: 60%;
+		margin-left: 300px;
+	}
+	
 
-.navigation{
-    width: 100%; height: 20vh; 
-    display: flex; justify-content: space-around;
-    align-items: center;
-    background-image: linear-gradient(tp top, rgb(255, 255, 255) 80%,#150c25 20%);
-}
-.Logo h1{
-    font-size: 1.6 rem;
-    animation: agep 2s linear infinite;
+	  .container3{
+		background-color:  rgb(247, 31, 121);
+		height: 500px;
+		font-family: Century Gothic;
+		font-size: 20px;
+		padding-left: 170px;
+		margin-top: 10px;
+		color: #fff;
+		padding-top: 10px;
+	
+    
+	 }
+	 .about{font-size: 70px;
+		
+		color: #fff;
 
-}
-@keyframes agep{
-    from{padding-left: 40px;}
-    to { padding-right: 40px;}
-}
-nav{
-    width: 50%;
-    justify-content: space-around;
-    display: flex;
-}
-nav a{
-    text-decoration: solid;
-    color: #150c25;
-}
-main{
-    height: 80vh;
-    display:flex;
-    justify-content: center;
-    align-items:left;
-}
+	 }
+	
+	.container4{
+		background-color:  #fff;
+		height: 500px;
+		font-family: Century Gothic;
+		font-size: 40px;
+		padding-left: 170px;
+		color: rgb(247, 31, 121);
+		padding-top: 10px;
+	}
+	.container5{
+		background-color:  rgb(0, 0, 0);
+		height: 200px;
+		font-family: Century Gothic;
+		font-size: 40px;
+		padding-left: 170px;
+		color: rgb(247, 31, 121);
+		padding-top: 10px;
+		text-align: center;
+	}
