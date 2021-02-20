@@ -91,7 +91,7 @@ header{
 	}
 	
 
-	  .container3{
+     .container3{
 		background-color:  rgb(247, 31, 121);
 		height: 700px;
 		font-family: Century Gothic;
@@ -100,13 +100,10 @@ header{
 		margin-top: 10px;
 		color: #fff;
 		padding-top: 10px;
-	
-    
 	 }
-	 .about{font-size: 70px;
-		
+	 
+	 .about {font-size: 70px;
 		color: #fff;
-
 	 }
 	.img2{
 		float: right;
