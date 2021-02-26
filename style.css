@@ -72,16 +72,12 @@ header{
         }
         .img{
             float: right;
-            margin-top: 70px ;
+            margin-top: 250px ;
             margin-right: 170px;
-            transition: width 4s, height 4s;
-            padding-top: 120px;
-          }
+            border-radius: 20px;
+                    }
           
-              .img:hover {
-               width: 350px;
-               height: 350px;
-                }
+             
          body{
              background-color: #000000;
          }       
