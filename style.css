@@ -1,184 +1,110 @@
-header{
-	width: 100%;
-    text-align: center;
-    position: fixed;
-	}
+body{
+background-image: url("bg1.jfif");
+font-family: Century Gothic;
+position: fixed;
+height: auto;
+background-repeat: no-repeat;
+background-size: cover;
 
-    nav{
-		font-family: Century Gothic;
-		position: fixed;
-        font-size: 25px;
-		margin-top: 30px;
-        height: 50px;
-        padding-right: 20px;
-		line-height: 60px;
-		width: 100%;
-		background-color: rgba(0, 0, 0);
+}
+
+.white{
+    background-color: #FEFFFF;
+    width: 1100px;
+    height: 650px;
+    margin-left: 280px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    opacity: 94%;
+    box-shadow: 5px 5px 8px #6b6c6c;
+    border-radius: 8px;
+}
+.about{
+    font-size: 50px;
+    color: #17252A;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 15px;
+    font-weight: 300;
+ 
+}
+
+hr{
+    border-top: 5px solid #3AAFA9;
+    width: 80px;
+    }
+.img{
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px rgb(81, 81, 81);
+    float: left;
+}    
+.prachi{
+    font-family: "Brush Script MT", cursive;
+    color: #2B7A78;
+    font-size: 35PX;
+    float: inline-start;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 60;
+    float: right;
+    padding: 10px;
+    width: 600px;
+
+}
+.same{
+    display: inline-block;
+}
+
+.edu{
+    font-size: 37px;
+    color: #17252A;
+    font-weight: 300; 
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+h2{
+    font-size: 20px;
+    margin-left: 20px;
+  
+}
+h3{
+    font-size: 16px;
+    margin-left: 20px;
     
-	}
+}
+.education{
+    margin-bottom: 60px;
+    margin-left: 30px;
     
-		a.pp:hover{
-			color: rgb(247, 31, 121);
-		}  
-        
-        a{
-			color: #fff;
-			display: inline-block;
-			padding: 10px 50px;
-			line-height: 1;
-			text-decoration: none;
-        }
-         a.pp{
-		border-style: solid;  
-		border-color: rgb(247, 31, 121);
-		border-radius: 20px; 
-		; 
-     	} 
-         
-         main{
-            font-family: Century Gothic;
-            margin-left:170px;
-            background-color: #000000;
-            color: #fff;
-            padding-top: 10px;
-            
-         }
-         .container{
-            font-family: Century Gothic;
-            font-size: 20px;
-            width: 50%;
-            color: #fff;
-            background-color: #000000;
-            height: 200px;
-            padding-top: 10px;
-            
-        }
-        .abt{
-            font-size: 170px;
-            opacity: 18%;
-            position: absolute;
-            z-index: 1;
-            
-            
-        }
-        .pn{
-            z-index: 0; 
-           padding-top: 220px;
-           font-size: 70px;
-           padding-left: 200px;
-           color: #fff;
-           opacity: 90%;
-           font-family: "Brush Script MT", cursive;
-        }
-        .img{
-            float: right;
-            margin-top: 250px ;
-            margin-right: 170px;
-            border-radius: 20px;
-            box-shadow: 7px 7px 10px  rgb(96, 96, 96);
-                    }
-          
-             
-         body{
-             background-color: #000000;
-         }       
-         .line {
-            height: 2px;
-            width: 800px;
-            margin-left: 180px;
-            
-            background-color: rgb(247, 31, 121);
-        }
-        .images{
-            display: inline-block;
-            padding:  40px;   
-          
-        }  
-        .images:hover {
-            width: 70px;
-            height: 70px;
-             }
-        .container2{
-            
-            width: 60%;
-            margin-left: 200px;
-        }
-        .s{
-            font-size: 100px;
-            float: right;
-            margin-right: 200px;
-            opacity: 25%;
-            
-        }
-        .skills{
-            padding-top: 260px;
-            
-        }
-        .pg{
-            width: 200px;
-            float: left;
-           padding-left: 20px;
-        }
-        .fw{
-            float: left;
-            padding-left: 60px;
-        }
-        .tools{
-            float:left;
-            padding-left: 60px;
-        }
-        .ik{
-            float: left;
-            padding-left: 60px;
-        }
-        h3{
-            font-size: 30px;
-            font-weight: 100;
-        }
-        .e{
-            font-size: 100px;
-            opacity: 35%;
-            color: rgb(0, 0, 0);
-           padding-top: 20px; 
-           padding-left: 170px ;
-        }
-        .hi{
-            float:left;
-            box-shadow: 7px 7px 30px #fff; 
-            margin-left:  170px;
-            padding: 10px;
-            width: 400px;
-            height: 250px;
-          
-        }
-        .hii{
-            float:left;
-            box-shadow: 7px 7px 30px #fff; 
-            margin-left:40px;
-            padding: 10px;
-            width: 400px;
-            height: 250px;
-          
-        }
-        .im:hover{
-            width: 420px;
-            height: 270px;
-           
-        }
-        .exp{
-            background-color: rgb(144, 144, 144);
-            margin-top: 350px;
-            height: 700px;
-            width: 100%;
-            font-family: Century Gothic;
-        }
-        .footer{
-            background-color: #000000;
-           
-    
-        }
-        .ty{
-            color: #fff;
-            font-family: "Brush Script MT", cursive;
-            margin-left: 700px;
-        }
+}
+
+.navbar{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+     top: 0;
+     left: 0;
+     padding: 40px;
+
+
+}
+.navbar a.active{
+    color: aqua;
+}
+.navbar a{
+    display: block;
+    color: #FEFFFF;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.navbar :hover{
+    color: aqua;
+}
