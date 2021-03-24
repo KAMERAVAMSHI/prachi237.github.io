@@ -1,10 +1,14 @@
+*{margin: 0;
+padding: 0;}
+
 body{
 background-image: url("bg1.jfif");
 font-family: Century Gothic;
-position: fixed;
+
 height: auto;
 background-repeat: no-repeat;
 background-size: cover;
+overflow: scroll;
 
 }
 
@@ -18,7 +22,7 @@ background-size: cover;
     margin-right: 40px;
     opacity: 94%;
     box-shadow: 5px 5px 8px #6b6c6c;
-    border-radius: 8px;
+    border-radius: 20px;
     overflow: scroll;
 }
 
@@ -35,6 +39,7 @@ background-size: cover;
 hr{
     border-top: 5px solid #3AAFA9;
     width: 80px;
+    margin-left: 500px;
     }
 .img{
     margin: 20px;
@@ -54,11 +59,12 @@ p{
     font-weight: 60;
     float: right;
     padding: 10px;
-    width: 600px;
+    width: 750px;
 
 }
 .same{
     display: inline-block;
+    padding-top: 30px;
 }
 
 .edu{
@@ -86,6 +92,7 @@ h3{
     
 }
 
+
 .navbar{
     height: 100%;
     width: 160px;
@@ -109,4 +116,8 @@ h3{
 }
 .navbar :hover{
     color: aqua;
+}
+
+.logos{
+    float: right;
 }
