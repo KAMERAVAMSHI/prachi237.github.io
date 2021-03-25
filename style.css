@@ -46,6 +46,7 @@ hr{
     border-radius: 8px;
     box-shadow: 5px 5px 8px rgb(81, 81, 81);
     float: left;
+    margin-left: 40px;
 }    
 .prachi{
     font-family: "Brush Script MT", cursive;
@@ -59,12 +60,14 @@ p{
     font-weight: 60;
     float: right;
     padding: 10px;
-    width: 750px;
+    width: 700px;
+    padding-top: 20px;
 
 }
 .same{
     display: inline-block;
     padding-top: 30px;
+    
 }
 
 .edu{
@@ -120,4 +123,12 @@ h3{
 
 .logos{
     float: right;
+    width: 700px;
+
+}
+.images{
+    padding: 30px;
+    padding-left: 50px 30px;
+    display: inline;
+    
 }
