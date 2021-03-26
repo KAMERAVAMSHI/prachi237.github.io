@@ -4,9 +4,7 @@ padding: 0;}
 body{
 background-image: url("bg1.jfif");
 font-family: Century Gothic;
-
 height: auto;
-
 background-size: cover;
 overflow: scroll;
 
@@ -132,8 +130,8 @@ h3{
 
 .logos{
     float: right;
-    width: 400px;
-    margin-right: 150px;
+    width: 500px;
+    margin-right: 10px;
         
 
 }
@@ -151,7 +149,7 @@ h3{
    
   }
   .end{
-      width: 100%;
+    
       height: 40px;
       background-color: #3AAFA9;
       text-align: center;
