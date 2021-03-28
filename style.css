@@ -132,6 +132,7 @@ h3{
     float: right;
     width: 500px;
     margin-right: 10px;
+ 
         
 
 }
@@ -139,13 +140,15 @@ h3{
     padding: 30px;
     padding-left: 50px 30px;
     display: inline;
+  
     
 }
 .logos :hover{
-   background-color: #e9fffc;
+  
+
    width: 45px;
    height: 45px;
-   border-radius: 20px;
+  
    
   }
   .end{
