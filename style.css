@@ -22,6 +22,7 @@ overflow: scroll;
     box-shadow: 5px 5px 8px #6b6c6c;
     border-radius: 20px;
     overflow: scroll;
+    display: block;
 }
 
 .about{
@@ -123,6 +124,7 @@ h3{
     padding: 10px;
     text-decoration: none;
     font-size: 26px;
+    font-weight: 200;
 }
 .navbar :hover{
     color: aqua;
@@ -181,3 +183,31 @@ h3{
       padding-left: 50px;
       padding-top: 20px;
   }
+
+  .card{
+      width: 300px;
+      height: 200px;
+      margin-left: 30px;
+      margin-top:40px;
+      box-shadow: 5px 5px 25px #919191;
+      float: left;   
+  }
+  .lo{
+    padding: 15px;
+  }
+  .card :hover{
+     border: 2px solid #2B7A78;
+  }
+  .card2{
+    width: 300px;
+    height: 440px;
+    margin-left: 30px;
+    margin-top:40px;
+    box-shadow: 5px 5px 25px #919191;
+    float: left;   
+}
+.pe{
+    font-size: 13px;
+    width: 280px;
+    padding: 10px;
+}
