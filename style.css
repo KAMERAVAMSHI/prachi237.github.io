@@ -2,11 +2,14 @@
 padding: 0;}
 
 body{
-background-image: url("bg1.jfif");
+background-image: url("bgg.webp");
 font-family: Century Gothic;
 height: auto;
-background-size: cover;
+background-size: fixed;
+background-repeat: repeat;
 overflow: scroll;
+
+
 
 }
 
@@ -18,11 +21,12 @@ overflow: scroll;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right: 40px;
-    opacity: 94%;
+    opacity: 92%;
     box-shadow: 5px 5px 8px #6b6c6c;
     border-radius: 20px;
     overflow: scroll;
     display: block;
+    box-shadow: 8px 8px 60px #000000;
 }
 
 .about{
@@ -154,16 +158,18 @@ h3{
    
   }
   .end{
-    
-      height: 40px;
-      background-color: #3AAFA9;
+     padding-top: 40px;
+      height: 50px;
+      background-color: #000000;
       text-align: center;
       padding: 10px;
       position: relative;
   }
   .last{
-      color: #17252A;
-      font-family: "Brush Script MT", cursive;
+      color: aqua;
+      font-size: 25px;
+      font-weight: 400;
+      padding-top: 10px;
   }
 
   .img2{
