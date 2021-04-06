@@ -189,6 +189,36 @@ h3{
     position: relative;
 }
 
+.vc{
+    height: 50px;
+    width: 5px;
+    background-color: #000000;
+    float: left;
+    margin-top: 5px;
+
+}
+
+.vv{
+    height: 160px;
+    width: 6px;
+    background-color: #000000;
+    float: right;
+    margin-top: 230px;
+    margin-right: 230px;
+    
+    
+
+}
+.vc1{
+    height: 160px;
+    width: 6px;
+    background-color: #000000;
+    float: right;
+    margin-top: 40px;
+    margin-right: 230px;
+    
+
+}
 
 .navbar{
     height: 100%;
