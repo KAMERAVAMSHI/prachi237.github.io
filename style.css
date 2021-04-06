@@ -48,42 +48,69 @@ overflow: scroll;
     padding-left: 100px;
 }
 .white1{
-    background-color: #dbffff;
-    width: 1190px;
-    height: 750px;
-    margin-left: 250px;
+    background-color: #ffffff;
+    width: 1269px;
+    height: 774px;
+    padding-left: 250px;
     margin-top: 20px;
     margin-bottom: 40px;
-    margin-right: 40px;
-    opacity: 94%;
-    border-radius: 20px;
+    
+    
+    
     display: block;
     
    
     
 }
 .white{
-    background-color: #dbffff;
-    width: 1190px;
+    
+    background-color: #7b7b7b;
+    width: 1269px;
     height: 700px;
-    margin-left: 250px;
-    margin-top: 20px;
+    padding-left: 250px;
+    margin-top: -40px;
     margin-bottom: 40px;
-    margin-right: 40px;
-    opacity: 94%;
+    
+    
     display: block;
-    border-radius: 20px;
+    
+    
+}
+.white2{
+    background-color: #bababa;
+    width: 1269px;
+    height: 700px;
+    padding-left: 250px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    
+    
+    display: block;
+    
+    
+}
+.white3{
+    background-color: #ffffff;
+    width: 1269px;
+    height: 700px;
+    padding-left: 250px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    
+    
+    display: block;
+    
     
 }
 
 .about{
-    font-size: 50px;
+    font-size: 60px;
     color: #17252A;
     text-align: center;
     vertical-align: top;
-    padding-top: 15px;
-    font-weight: 300;
- 
+    padding-top: 25px;
+    font-weight: normal;
+    padding-right: 200px;
 }
 
 
@@ -109,11 +136,11 @@ hr{
 
 
 p{
-    font-size: 18px;
-    font-weight: 60;
+    font-size: 20px;
+    
     width: 900px;
     padding-top: 8px;
-
+    padding-left: 40px;
 }
 .same{
     display: inline-block;
@@ -129,8 +156,10 @@ p{
     margin-left: 20px;
 }
 .nit{
-    margin-right: 20px;
+    margin-right: 230px;
+    border-radius: 20px;
     float: right;
+    
 }
 .line{
     height: 5px;
@@ -157,6 +186,7 @@ h3{
     margin-bottom: 60px;
     margin-left: 30px; 
     display: inline-block;
+    position: relative;
 }
 
 
@@ -176,7 +206,7 @@ h3{
 }
 .navbar a{
     display: block;
-    color: #FEFFFF;
+    color: #3AAFA9;
     padding: 10px;
     text-decoration: none;
     font-size: 26px;
@@ -211,9 +241,9 @@ h3{
    
   }
   .end{
-     padding-top: 40px;
+     margin-top: -40px;
       height: 50px;
-      background-color: #2B7A78;
+      background-color: #000000;
       text-align: center;
       padding: 10px;
       position: relative;
@@ -240,7 +270,7 @@ h3{
   }
   .s{
       padding-left: 50px;
-      padding-top: 20px;
+      padding-top: 50px;
   }
 
   .card{
@@ -248,8 +278,9 @@ h3{
       height: 200px;
       margin-left: 30px;
       margin-top:40px;
-      box-shadow: 5px 5px 25px #919191;
-      float: left;   
+      box-shadow: 5px 5px 25px #4c4c4c;
+      float: left; 
+      background-color: #ffffff;  
   }
   .lo{
     padding: 15px;
@@ -262,7 +293,8 @@ h3{
     height: 440px;
     margin-left: 30px;
     margin-top:40px;
-    box-shadow: 5px 5px 25px #919191;
+    box-shadow: 5px 5px 25px #696868;
+    background-color: #ffffff;
     float: left;   
 }
 .pe{
