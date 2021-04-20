@@ -17,7 +17,7 @@ overflow: scroll;
 
 }
 .hello{
-    padding-top:130px ;
+    padding-top:230px ;
     width: 1100px;
     height: 700px;
     margin-left: 220px;
@@ -55,7 +55,7 @@ overflow: scroll;
     margin-top: 20px;
     margin-bottom: 40px;
     
-    
+    padding-top: 50px;
     
     display: block;
     
@@ -71,7 +71,7 @@ overflow: scroll;
     margin-top: -40px;
     margin-bottom: 40px;
     
-    
+    padding-top: 50px;
     display: block;
     
     
@@ -84,7 +84,7 @@ overflow: scroll;
     margin-top: -40px;
     margin-bottom: 40px;
     
-    
+    padding-top: 50px;
     display: block;
     
     
@@ -96,7 +96,7 @@ overflow: scroll;
     padding-left: 250px;
     margin-top: -40px;
     margin-bottom: 40px;
-    
+    padding-top: 50px;
     
     display: block;
     
@@ -221,13 +221,15 @@ h3{
 }
 
 .navbar{
-    height: 100%;
-    width: 160px;
+    height: 80px;
+    width: 1550px;
     position: fixed;
     z-index: 1;
      top: 0;
      left: 0;
-     padding: 40px;
+     padding-left: 230px;
+     display: block;
+     background-color: #000000;
 
 
 }
@@ -236,11 +238,14 @@ h3{
 }
 .navbar a{
     display: block;
-    color: #3AAFA9;
-    padding: 10px;
+    color: #ffffff;
+    padding: 30px;
     text-decoration: none;
     font-size: 26px;
     font-weight: 200;
+    float: left;
+    
+
 }
 .navbar :hover{
     color: aqua;
