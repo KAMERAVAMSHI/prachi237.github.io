@@ -45,7 +45,7 @@ width: 100%;
     color: #FEFFFF;
     font-size: 20px;
     text-align: center;
-    padding-left: 20%;
+    padding-left: 13%;
 }
 .white1{
     background-color: #ffffff;
@@ -109,19 +109,20 @@ width: 100%;
     color: #17252A;
     text-align: center;
     vertical-align: top;
-    padding-top: 25px;
+    padding-top: 5%;
     font-weight: normal;
-    padding-right: 200px;
+    padding-right: 20%;
 }
 
 
 hr{
     border-top: 5px solid #3AAFA9;
     width: 80px;
-    margin-left: 500px;
+    margin-left: 35%;
     }
 .img{
-    margin: 20px;
+    margin-right: 3%;
+    margin-top: 2%;
     border-radius: 8px;
     box-shadow: 5px 5px 8px rgb(81, 81, 81);
     float: left;
@@ -215,8 +216,10 @@ h3{
     width: 6px;
     background-color: #000000;
     float: right;
-    margin-top: 40px;
-    margin-right: 230px;
+    margin-right:10%;
+    margin-top: 5%;
+    
+    
     
 
 }
@@ -304,6 +307,7 @@ h3{
       font-size: 20px;
       padding-top: 30px;
       color: #17252A;
+      font-weight: normal;
       
   }
   .s{
@@ -340,4 +344,3 @@ h3{
     width: 280px;
     padding: 10px;
 }
-
