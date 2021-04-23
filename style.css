@@ -303,16 +303,17 @@ h3{
 
   }
   .list{
-      padding-left: 50px;
+      padding-left: 3%;
       font-size: 20px;
-      padding-top: 30px;
+      padding-top: 2%;
       color: #17252A;
       font-weight: normal;
       
   }
   .s{
-      padding-left: 50px;
-      padding-top: 50px;
+    
+      padding-top: 4%;
+      padding-left: 2%;
   }
 
   .card{
